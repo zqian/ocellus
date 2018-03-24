@@ -4,10 +4,6 @@
 angular.module('ocellusFilters', []).filter('textOnlyCategory', function($filter) {
   return function(category) {
     return ({
-        'Hospital': {
-            icon: 'hospital',
-            background: 'green'
-        },
       'Study/Discussion': {
         icon: 'pencil',
         background: 'green'

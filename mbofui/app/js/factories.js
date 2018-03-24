@@ -185,17 +185,11 @@ ocellus.factory('Bof', ['$http', '$log', '$q', '$rootScope', '$window', function
     },
     resolveIcon: function(key){
       return ( {
-          'Hospital': {
-              type: 'awesomeMarker',
-              icon: 'hospital',
-              markerColor: 'red'
-          },
           'Study/Discussion': {
           type: 'awesomeMarker',
           icon: 'pencil',
           markerColor: 'green'
         },
-
         'Course/Class': {
           type: 'awesomeMarker',
           icon: 'heart',

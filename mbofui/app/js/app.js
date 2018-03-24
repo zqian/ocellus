@@ -18,7 +18,7 @@ ocellus.run(function($rootScope, $window) {
     $rootScope.user = {};
     $rootScope.currentMapKey='AIzaSyBJfRs5m2aIl3cKjMy0es9Fh6-EJeXpP4k';
     $rootScope.currentMapAPI = 'google';
-    $rootScope.event_categories = ['Hospital','Course/Class','Practice/Rehearsal','Social Gathering','Business/Networking','Public Ceremony','Family','Sports','Political/Rally'];
+    $rootScope.event_categories = ['Course/Class','Practice/Rehearsal','Social Gathering','Business/Networking','Public Ceremony','Family','Sports','Political/Rally'];
     $rootScope.urls = {
       'intentions':'/api/intentions/'
     };
